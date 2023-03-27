@@ -2,7 +2,7 @@ import React from "react";
 import {Container} from './styles'
 import Header from '../../Sections/Header'
 import Home from '../../Sections/Home'
-import About from '../../Sections/About'
+import About from '../About'
 import Plans from '../../Sections/Plans'
 import Feedback from '../../Sections/Feedback'
 import Footer from '../../Sections/Footer'
