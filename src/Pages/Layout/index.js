@@ -1,11 +1,11 @@
 import React from "react";
 import {Container} from './styles'
-import Header from '../../Sections/Header'
-import Home from '../../Sections/Home'
+import Header from '../../components/Header'
+import Home from '../../Pages/Home'
 import About from '../About'
-import Plans from '../../Sections/Plans'
-import Feedback from '../../Sections/Feedback'
-import Footer from '../../Sections/Footer'
+import Plans from '../../Pages/Plans'
+import Feedback from '../../Pages/Feedback'
+import Footer from '../../components/Footer'
 import WhatsappButton from "../../components/WhatsappButton";
 
 const Layout=()=>{
