@@ -6,5 +6,17 @@ export default createGlobalStyle`
         margin:0;
         font-family: sans-serif;
         box-sizing:border-box;
+        font-family: 'Lilita One', cursive;
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
+        &::-webkit-scrollbar{
+            width:0;
+            height:0;
+        };
+    }
+
+    button, input{
+        border:0;
+        background:none; 
     }
 `;
