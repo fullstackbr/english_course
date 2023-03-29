@@ -1,11 +1,12 @@
 import React from "react";
-import {Container} from './styles'
+import * as S from './styles'
 
 const Header=()=>{
+  
   return (
-   <Container>
+   <S.Container>
 
-   </Container>
+   </S.Container>
   );
 }
 
