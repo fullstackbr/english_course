@@ -5,7 +5,7 @@ import Home from '../../Pages/Home'
 import About from '../About'
 import Plans from '../../Pages/Plans'
 import Feedback from '../../Pages/Feedback'
-import Footer from '../../Pages/Footer'
+import Footer from '../../components/Footer'
 import WhatsappButton from "../../components/WhatsappButton";
 
 const Layout=()=>{
