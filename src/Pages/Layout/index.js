@@ -8,6 +8,7 @@ import Footer from '../../components/Footer'
 import WhatsappButton from "../../components/WhatsappButton";
 import About from "../About";
 
+
 const Layout=()=>{
   return (
     <div>
@@ -17,6 +18,7 @@ const Layout=()=>{
       {/* <About id="about"/>
       <Plans id="plans"/>
       <Feedback id="feedback"/>
+      <Faq id="faq" />
       <Footer id="footer"/>
       <WhatsappButton /> */}
    </Container>

@@ -1,7 +1,7 @@
 import Layout from "./Pages/Layout";
 import GlobalStyles from "./styles/GlobalStyles";
 
-function App() {
+const App = () =>  {
   return (
    <>
     <Layout/>
