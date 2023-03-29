@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./styles";
 import { useState } from "react";
 
@@ -48,6 +47,7 @@ const Header = () => {
         </S.MenuUl>
       </S.Nav>
     </S.Header>
+
   );
 }
 

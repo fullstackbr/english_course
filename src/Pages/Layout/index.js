@@ -11,13 +11,13 @@ import WhatsappButton from "../../components/WhatsappButton";
 const Layout=()=>{
   return (
    <Container>
-      <Header />
+      {/* <Header /> */}
       <Home id="home"/>
-      <About id="about"/>
+      {/* <About id="about"/>
       <Plans id="plans"/>
       <Feedback id="feedback"/>
       <Footer id="footer"/>
-      <WhatsappButton />
+      <WhatsappButton /> */}
    </Container>
   );
 }
