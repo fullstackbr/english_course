@@ -11,7 +11,7 @@ import WhatsappButton from "../../components/WhatsappButton";
 const Layout=()=>{
   return (
    <Container>
-      {/* <Header /> */}
+      <Header/>
       <Home id="home"/>
       {/* <About id="about"/>
       <Plans id="plans"/>

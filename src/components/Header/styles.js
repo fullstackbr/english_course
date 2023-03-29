@@ -5,6 +5,7 @@ export const Header = styled.div`
   box-sizing: border-box;
   height: 100px;
   width: 100%;
+  padding: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -12,7 +13,7 @@ export const Header = styled.div`
   top: 0;
   z-index: 10;
   &.fixed {
-    background: linear-gradient(337.8deg, #96C9E9 28.25%, #4F91F3 103.4%);
+    background: #96c9e9;
     transition: 0.3s;
   }
   @media (max-width: 768px) {
@@ -24,12 +25,10 @@ export const Header = styled.div`
 export const MenuUl = styled.ul`
   display: flex;
   list-style: none;
-  margin-right: 2rem;
   gap: 2rem;
   @media (max-width: 768px) {
     display: block;
     position: absolute;
-    margin-right: 0rem;
     width: 100%;
     top: 100px;
     right: 0px;
@@ -106,7 +105,6 @@ export const Hamburger = styled.span`
     border-top: 2px solid;
     width: 40px;
     color: #ffffff;
-    margin-right: 2rem;
     &::after,
     ::before {
       content: "";
