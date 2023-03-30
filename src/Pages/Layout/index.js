@@ -7,6 +7,7 @@ import Feedback from '../../Pages/Feedback'
 import Footer from '../../components/Footer'
 import WhatsappButton from "../../components/WhatsappButton";
 import About from "../About";
+import Faq from "../FAQ";
 
 
 const Layout=()=>{
@@ -15,12 +16,12 @@ const Layout=()=>{
  <Container>
       <Header/>
       <Home id="home"/>
-      {/* <About id="about"/>
+      <About id="about"/>
       <Plans id="plans"/>
       <Feedback id="feedback"/>
       <Faq id="faq" />
       <Footer id="footer"/>
-      <WhatsappButton /> */}
+      <WhatsappButton />
    </Container>
    <About />
     </div>
